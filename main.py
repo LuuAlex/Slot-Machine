@@ -1,12 +1,17 @@
 import os
 import games.single_coin_slot_machine
 
+
 # Clears terminal screen
 def clear():
     os.system('cls||clear')
+
+
 # Prints amount of chips player has
 def wallet_print():
     print("Chips:", wallet)
+
+
 # Clears terminal and prints chips to reset after each round
 def reset():
     clear()
@@ -24,9 +29,9 @@ while True:
     print("1- Single Coin Slot Machine")
 
     print()
-    choice = int(input("Enter the number coorspoinding to the game you would like to play:"))
+    choice = int(input("Enter the number coorspoinding to the game you would like to play: "))
     reset()
-
 
     if choice == 1:
         games.single_coin_slot_machine.play()
+
