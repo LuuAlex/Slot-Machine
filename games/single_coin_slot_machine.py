@@ -1,2 +1,2 @@
 def play():
-    print("hi")
+    print("Welcome to Single Coin Slot Machine!")
