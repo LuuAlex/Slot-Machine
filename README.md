@@ -13,5 +13,5 @@ Slot Machine is a program designed to allow you to play your favorite casino gam
 - Single-Coin Slot Machine
 
 
-## Upcomming Features
+## Upcoming Features
 
